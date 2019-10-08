@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Quote Machine</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Josefin+Sans:400'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Libre+Baskerville'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Serif+Pro'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Merriweather'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Neuton'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Arvo'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- 
+Quote api:
+http://www.programmableweb.com/api/i-heart-quotes
+Random Famous Quotes - https://market.mashape.com/explore
+https://forismatic.com/en/api/
+
+Try iterating over quotes, angular warmup
+Make a button spit the quotes
+Come up with a killer design.
+Relocate quote area, style quote area, and place tweet and refresh buttons
+mobile-friendly: use max-width
+* Code killer design:
+Do speech bubble
+Look up responsive text
+test responsive text
+style speech bubble
+make it split into two lines
+adjust the position of a one-line author
+do speech bubble jquery transition fn
+Figure out quoteapi
+style and animate tweet and refresh buttons
+make the damn thing actually tweet
+fix the beginning. Make it animate in
+* refactor js - remove angular
+* add a failure to the jsonp - make it show the last quote before 
+* make the button animate transition to new spot
+-->
+
+<body ng-app="app">
+  <div class="main">
+  <div class='uil-cube-css' style='-webkit-transform:scale(0.19)'><div></div><div></div><div></div><div></div></div>
+  <div class="container" ng-controller="QuoteController">
+    <div class="speech_bubble">
+      <div class="speech_body">
+        <span></span>
+      </div>
+      <div class="speech_triangle"></div>
+    </div>
+    <div class="quote_button_area">
+      <div class="quote_area">
+        <span></span>
+      </div>
+      <div class="button_area">
+        <button class="button refresh" ng-click="clickNewQuote()">New Quote</button>
+        <button class="button tweet" ng-click="tweet()">Tweet</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <span id="hidden"></span> 
+</body>
+<!-- partial -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+<script src='https://www.dropbox.com/s/f4in2vuafpgnuy5/jquery.textfill.js?dl=0&raw=1'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>

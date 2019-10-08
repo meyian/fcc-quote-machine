@@ -1,0 +1,296 @@
+.main {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.container {
+  opacity: 0;
+}
+
+#hidden {
+  display: none;
+  font: 400 1.2em/100% 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.15em;
+}
+
+body {
+  background-color: #f1f0eb;
+  padding-bottom: 100px;
+  height: 100vh;
+  /* min-height: 350px; */
+}
+
+/* Container */
+.container {
+  width: 100%;
+  height: 100vh;
+  /* min-height: 350px; */
+  background-color: #f1f0eb;
+  padding: 40px;
+}
+
+/* Speech bubble */
+.speech_body {
+  width: 150px;
+  background-color: #bf0c0e;
+  color: white;
+  padding: 10px 7px;
+  position: relative;
+  font: 400 1.2em/100% 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.15em;
+}
+
+.speech_triangle {
+  position: relative;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 25px 0px 0px;
+  border-color: #bf0c0e transparent transparent transparent;
+}
+
+/* Quote/btn area */
+.quote_button_area {
+  position: absolute;
+  top: 140px;
+  left: 150px;
+  width: calc(100% - 220px);
+  max-width: 620px;
+  min-height: 85px;
+  padding-bottom: 70px;
+}
+
+/* Quotation area */
+.quote_area {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-size: 18px;
+  width: 100%;
+  overflow: scroll;
+}
+
+.button_area {
+  position: absolute;
+  bottom: 0px;
+}
+
+/* Twitter/Refresh btn */
+.button {
+  padding: 5px;
+  border-radius: 4px;
+  color: #175B8C;
+  background: rgba(0, 0, 0, 0);
+  border: solid 2px #175B8C;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  margin-right: 5px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  color: white;
+  background: #175B8C;
+  border-color: #175B8C;
+}
+
+.uil-cube-css {
+  background: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  margin: auto;
+  left: 7%;
+  align: center;
+}
+
+@-webkit-keyframes uil-cube-css {
+  0% {
+    -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  100% {
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes uil-cube-css {
+  0% {
+    -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  100% {
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-moz-keyframes uil-cube-css {
+  0% {
+    -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  100% {
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-ms-keyframes uil-cube-css {
+  0% {
+    -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  100% {
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-moz-keyframes uil-cube-css {
+  0% {
+    -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  100% {
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes uil-cube-css {
+  0% {
+    -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  100% {
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-o-keyframes uil-cube-css {
+  0% {
+    -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  100% {
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes uil-cube-css {
+  0% {
+    -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  100% {
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.uil-cube-css > div {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  -ms-animation: uil-cube-css 1s cubic-bezier(0.2, 0.8, 0.2, 0.8) infinite;
+  -moz-animation: uil-cube-css 1s cubic-bezier(0.2, 0.8, 0.2, 0.8) infinite;
+  -webkit-animation: uil-cube-css 1s cubic-bezier(0.2, 0.8, 0.2, 0.8) infinite;
+  -o-animation: uil-cube-css 1s cubic-bezier(0.2, 0.8, 0.2, 0.8) infinite;
+  animation: uil-cube-css 1s cubic-bezier(0.2, 0.8, 0.2, 0.8) infinite;
+}
+
+.uil-cube-css > div:nth-of-type(1) {
+  top: 10px;
+  left: 10px;
+  background: #b2b043;
+  opacity: 0.9;
+  -ms-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.uil-cube-css > div:nth-of-type(2) {
+  top: 10px;
+  left: 110px;
+  background: #b2b043;
+  opacity: 0.8;
+  -ms-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+  -o-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.uil-cube-css > div:nth-of-type(3) {
+  top: 110px;
+  left: 10px;
+  background: #b2b043;
+  opacity: 0.7;
+  -ms-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.uil-cube-css > div:nth-of-type(4) {
+  top: 110px;
+  left: 110px;
+  background: #b2b043;
+  opacity: 0.6;
+  -ms-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
